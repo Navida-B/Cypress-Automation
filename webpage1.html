@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cypress Testing Page</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    checkbox,
+    radio {
+      margin-right: 5px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    a {
+      color: #1e88e5;
+      text-decoration: none;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+
+  <label for="text-input">Text Input:</label>
+  <input type="text" id="text-input" name="text-input">
+
+  <label for="password-input">Password Input:</label>
+  <input type="password" id="password-input" name="password-input">
+
+  <input type="checkbox" id="checkbox1" name="checkbox1">
+  <label for="checkbox1">Checkbox 1</label>
+
+  <input type="radio" id="radio1" name="radio-group">
+  <label for="radio1">Radio 1</label>
+  <input type="radio" id="radio2" name="radio-group">
+  <label for="radio2">Radio 2</label>
+
+  <label for="select-element">Select Element:</label>
+  <select id="select-element" name="select-element">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+  </select>
+
+  <button id="submit-button">Submit</button>
+  <button id="cancel-button">Cancel</button>
+
+  <a href="#" id="sample-link">Sample Link</a>
+
+  <img src="https://via.placeholder.com/150" alt="Sample Image">
+
+  <label for="text-area">Text Area:</label>
+  <textarea id="text-area" name="text-area" rows="4" cols="50"></textarea>
+
+  <table border="1">
+    <tr>
+      <td>Row 1, Cell 1</td>
+      <td>Row 1, Cell 2</td>
+    </tr>
+    <tr>
+      <td>Row 2, Cell 1</td>
+      <td>Row 2, Cell 2</td>
+    </tr>
+  </table>
+
+  <iframe src="https://www.example.com" width="600" height="400"></iframe>
+
+</body>
+</html>
