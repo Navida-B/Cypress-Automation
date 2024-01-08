@@ -7,4 +7,10 @@ describe('Finding and asserting web elements', () => {
     it('findind and asserting textbox', () => {
     //  cy.get('#text-input').type('navida').should('contain', 'navida')
     })
+     
+    it('findind and asserting radio', () => { })
+  
   })  
+
+
+  
