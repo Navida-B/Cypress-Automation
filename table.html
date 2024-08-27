@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      margin: 20px;
+      margin: 20px;     
       padding: 20px;
       background-color: #f4f4f4;
     }
@@ -148,12 +148,12 @@
       editButtons.forEach(btn => btn.style.display = 'inline-block');
       saveButtons.forEach(btn => btn.style.display = 'none');
     }
-
-    function deleteRow(button) {
+    
+  function deleteRow(button) {
       const row = button.parentNode.parentNode;
       row.parentNode.removeChild(row);
     }
-  </script>
-
+    
+    </script>
 </body>
 </html>
